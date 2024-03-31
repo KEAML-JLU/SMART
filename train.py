@@ -299,8 +299,8 @@ datasets.append(args.dataset_name)
 res = {}
 
 for dataset in datasets:
-    for k in [5]:  # 10
-        args.K_shot = k
+    # for k in [5]:  # 10
+        k = args.K_shot
         accs = []
         for seed_value in range(72, 73):
             # for seed_value in range(5):
